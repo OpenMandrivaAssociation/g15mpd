@@ -1,6 +1,6 @@
 Name:                   g15mpd
 Version:                1.0.0
-Release:                %mkrel 1
+Release:                %mkrel 2
 Summary:                Simple frontend for the MPD Media Player Daemon, for use with g15daemon
 License:                GPL
 Group:                  System/Configuration/Hardware
@@ -15,8 +15,6 @@ BuildRoot:              %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 A simple frontend for the MPD Media Player Daemon, for use with g15daemon.
-
-Requires X11, libg15render, and libmpd to compile.
 
 Features:
 - Artist/Title Info is displayed
