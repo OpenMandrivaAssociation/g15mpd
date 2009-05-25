@@ -1,11 +1,12 @@
 Name:                   g15mpd
 Version:                1.0.0
-Release:                %mkrel 4
+Release:                %mkrel 5
 Summary:                Simple frontend for the MPD Media Player Daemon, for use with g15daemon
 License:                GPL
 Group:                  System/Configuration/Hardware
 URL:                    http://g15daemon.sourceforge.net/
 Source0:                http://downloads.sourceforge.net/g15daemon/g15mpd-%{version}.tar.bz2
+Patch0:			g15mpd-1.0.0-newer-mpd.patch
 BuildRequires:          g15-devel
 BuildRequires:          g15daemon_client-devel
 BuildRequires:          g15render-devel
@@ -34,8 +35,10 @@ Caveats:
 
 %prep
 %setup -q
+%patch0 -p0
 
 %build
+autoreconf -fi
 %{configure2_5x}
 %{make}
 
