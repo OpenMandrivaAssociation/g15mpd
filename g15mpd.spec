@@ -1,7 +1,7 @@
 Summary:	Simple frontend for the MPD Media Player Daemon, for use with g15daemon
 Name:		g15mpd
 Version:	1.0.0
-Release:	9
+Release:	10
 License:	GPLv2+
 Group:		Sound
 Url:		http://g15daemon.sourceforge.net/
