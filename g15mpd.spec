@@ -4,7 +4,7 @@ Version:	1.0.0
 Release:	10
 License:	GPLv2+
 Group:		Sound
-Url:		http://g15daemon.sourceforge.net/
+Url:		https://g15daemon.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/g15daemon/%{name}-%{version}.tar.bz2
 Patch0:		g15mpd-1.0.0-newer-mpd.patch
 Patch1:		g15mpd-1.0.0-rosa-linkage.patch
