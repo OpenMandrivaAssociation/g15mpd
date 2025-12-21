@@ -8,6 +8,11 @@ Url:		https://g15daemon.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/g15daemon/%{name}-%{version}.tar.bz2
 Patch0:		g15mpd-1.0.0-newer-mpd.patch
 Patch1:		g15mpd-1.0.0-rosa-linkage.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	g15-devel
 BuildRequires:	g15daemon_client-devel
 BuildRequires:	g15render-devel
